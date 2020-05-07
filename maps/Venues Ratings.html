@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e1a56fcba7ae43f8b429e9978fd8fff2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e1a56fcba7ae43f8b429e9978fd8fff2" ></div>
+        
+</body>
+<script>    
+    
+            var map_e1a56fcba7ae43f8b429e9978fd8fff2 = L.map(
+                "map_e1a56fcba7ae43f8b429e9978fd8fff2",
+                {
+                    center: [12.9716, 77.5946],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_26dc82aeff53450aa604810c299968ab = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var marker_5b9b04d4f303422b8c28db441848f641 = L.marker(
+                [12.9719, 77.5964],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_5ae343700fae403c8f8bf426faf63542 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_5b9b04d4f303422b8c28db441848f641.setIcon(icon_5ae343700fae403c8f8bf426faf63542);
+        
+    
+        var popup_0ad2c75c97d24cd4ba332adda4dd2dec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66fbbbe8c80843a8a7e1f268afa21a94 = $(`<div id="html_66fbbbe8c80843a8a7e1f268afa21a94" style="width: 100.0%; height: 100.0%;">JW Marriott Hotel Bengaluru, 2nd Floor, UB City, Vittal Mallya Road, Lavelle Road, Bangalore</div>`)[0];
+            popup_0ad2c75c97d24cd4ba332adda4dd2dec.setContent(html_66fbbbe8c80843a8a7e1f268afa21a94);
+        
+
+        marker_5b9b04d4f303422b8c28db441848f641.bindPopup(popup_0ad2c75c97d24cd4ba332adda4dd2dec)
+        ;
+
+        
+    
+    
+            var marker_79c5f655f0954323b65b29a2f6afec94 = L.marker(
+                [12.9718, 77.596],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_d0e2b72b0a2a4d8abf78f93eddcacbd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_79c5f655f0954323b65b29a2f6afec94.setIcon(icon_d0e2b72b0a2a4d8abf78f93eddcacbd4);
+        
+    
+        var popup_21c6528f2be84526be12dd7d63d98810 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d369b2a834c64e169654a384c76a7a27 = $(`<div id="html_d369b2a834c64e169654a384c76a7a27" style="width: 100.0%; height: 100.0%;">UB City, 204, UB City, Vittal Mallya Road, Near Lavelle Road, Lavelle Road, Bangalore</div>`)[0];
+            popup_21c6528f2be84526be12dd7d63d98810.setContent(html_d369b2a834c64e169654a384c76a7a27);
+        
+
+        marker_79c5f655f0954323b65b29a2f6afec94.bindPopup(popup_21c6528f2be84526be12dd7d63d98810)
+        ;
+
+        
+    
+    
+            var marker_1286da636af949af879edbea66c33655 = L.marker(
+                [12.9721, 77.5964],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_d4965f073e2f42aa9ec6101e7e3709b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_1286da636af949af879edbea66c33655.setIcon(icon_d4965f073e2f42aa9ec6101e7e3709b0);
+        
+    
+        var popup_ce432ffbed584242b7b0e3b68b049f18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ad8666ffedb47a7b97055597847710a = $(`<div id="html_3ad8666ffedb47a7b97055597847710a" style="width: 100.0%; height: 100.0%;">Toscano, 2nd Floor, UB City, Vittal Mallya Road, Lavelle Road, Bangalore</div>`)[0];
+            popup_ce432ffbed584242b7b0e3b68b049f18.setContent(html_3ad8666ffedb47a7b97055597847710a);
+        
+
+        marker_1286da636af949af879edbea66c33655.bindPopup(popup_ce432ffbed584242b7b0e3b68b049f18)
+        ;
+
+        
+    
+    
+            var marker_218248d45ea04637aed9234185007508 = L.marker(
+                [12.9675, 77.5999],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_f241a5aa464b46a0bf6c2ac7dae02da8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_218248d45ea04637aed9234185007508.setIcon(icon_f241a5aa464b46a0bf6c2ac7dae02da8);
+        
+    
+        var popup_6380dfb9fcd5404eac0aa9d5c2058f91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f783ce6a5f484a40a8ed0a31dc65af02 = $(`<div id="html_f783ce6a5f484a40a8ed0a31dc65af02" style="width: 100.0%; height: 100.0%;">Smoke House Deli, 131, 4th Floor, Devatha Plaza, Residency Road, Bangalore</div>`)[0];
+            popup_6380dfb9fcd5404eac0aa9d5c2058f91.setContent(html_f783ce6a5f484a40a8ed0a31dc65af02);
+        
+
+        marker_218248d45ea04637aed9234185007508.bindPopup(popup_6380dfb9fcd5404eac0aa9d5c2058f91)
+        ;
+
+        
+    
+    
+            var marker_3bbd807288754824b81aec4d59f92963 = L.marker(
+                [12.9718, 77.5952],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_5f21730bdda24141abf1eda3005206c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_3bbd807288754824b81aec4d59f92963.setIcon(icon_5f21730bdda24141abf1eda3005206c2);
+        
+    
+        var popup_b62ef5bc50cc485f812984f4f48afff4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f955febdf61048fa8cd4a728085b87d6 = $(`<div id="html_f955febdf61048fa8cd4a728085b87d6" style="width: 100.0%; height: 100.0%;">Shiro, JW Marriott, 24/1, Vittal Mallya Road, Lavelle Road, Bangalore</div>`)[0];
+            popup_b62ef5bc50cc485f812984f4f48afff4.setContent(html_f955febdf61048fa8cd4a728085b87d6);
+        
+
+        marker_3bbd807288754824b81aec4d59f92963.bindPopup(popup_b62ef5bc50cc485f812984f4f48afff4)
+        ;
+
+        
+    
+    
+            var marker_d95866b9eebc4007a614a9045ade324b = L.marker(
+                [12.9715, 77.6009],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_5778dddcf20a46cb88912468999cfa9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_d95866b9eebc4007a614a9045ade324b.setIcon(icon_5778dddcf20a46cb88912468999cfa9e);
+        
+    
+        var popup_5828a447722b477793ac941892495d76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b80fa26547654123b747468a1c8f23f0 = $(`<div id="html_b80fa26547654123b747468a1c8f23f0" style="width: 100.0%; height: 100.0%;">Café Noir, 15/16, Ground Floor, House of Lords, St. Marks Road, Bangalore</div>`)[0];
+            popup_5828a447722b477793ac941892495d76.setContent(html_b80fa26547654123b747468a1c8f23f0);
+        
+
+        marker_d95866b9eebc4007a614a9045ade324b.bindPopup(popup_5828a447722b477793ac941892495d76)
+        ;
+
+        
+    
+    
+            var marker_c93d2bafb45a4ce09b532087bd96e5c3 = L.marker(
+                [12.9732, 77.6],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_df1185f5b233408cb9d9254a149a0a07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_c93d2bafb45a4ce09b532087bd96e5c3.setIcon(icon_df1185f5b233408cb9d9254a149a0a07);
+        
+    
+        var popup_93c374bc6bc74f6e9feade27b50d8734 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ab135a5c92e4ccd96d72641cbe32617 = $(`<div id="html_4ab135a5c92e4ccd96d72641cbe32617" style="width: 100.0%; height: 100.0%;">Skyye, 4, Madras Bank Road, Lavelle Road, Bangalore</div>`)[0];
+            popup_93c374bc6bc74f6e9feade27b50d8734.setContent(html_4ab135a5c92e4ccd96d72641cbe32617);
+        
+
+        marker_c93d2bafb45a4ce09b532087bd96e5c3.bindPopup(popup_93c374bc6bc74f6e9feade27b50d8734)
+        ;
+
+        
+    
+    
+            var marker_fd08d904a64041378e63b29ab7aa44c7 = L.marker(
+                [12.9714, 77.601],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_b67ff1b1ce6f465aabd5e2c68b3f2455 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_fd08d904a64041378e63b29ab7aa44c7.setIcon(icon_b67ff1b1ce6f465aabd5e2c68b3f2455);
+        
+    
+        var popup_6cb6d5a54be940ffa6b7b8ce1079d4f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3d69f1e05bd464bb87fa81ed1c99cc8 = $(`<div id="html_b3d69f1e05bd464bb87fa81ed1c99cc8" style="width: 100.0%; height: 100.0%;">Truffles - Ice &amp; Spice, 20, Ground Floor, 15/16, House Of Lords, St. Marks Road, Bangalore</div>`)[0];
+            popup_6cb6d5a54be940ffa6b7b8ce1079d4f9.setContent(html_b3d69f1e05bd464bb87fa81ed1c99cc8);
+        
+
+        marker_fd08d904a64041378e63b29ab7aa44c7.bindPopup(popup_6cb6d5a54be940ffa6b7b8ce1079d4f9)
+        ;
+
+        
+    
+    
+            var marker_96029da3ab264db5b61fe2aeab2757ee = L.marker(
+                [12.9717, 77.5952],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_b91d21cea66a44c99fc77fbbcac1c2c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_96029da3ab264db5b61fe2aeab2757ee.setIcon(icon_b91d21cea66a44c99fc77fbbcac1c2c2);
+        
+    
+        var popup_d737f8bb0c4348e5b668d4657a523c9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_578b9cb13b03424ba0c29ecc179b46d0 = $(`<div id="html_578b9cb13b03424ba0c29ecc179b46d0" style="width: 100.0%; height: 100.0%;">Bliss Luxe Chocolate Lounge, JW Marriott, 24/1, Vittal Mallya Road, Lavelle Road, Bangalore</div>`)[0];
+            popup_d737f8bb0c4348e5b668d4657a523c9b.setContent(html_578b9cb13b03424ba0c29ecc179b46d0);
+        
+
+        marker_96029da3ab264db5b61fe2aeab2757ee.bindPopup(popup_d737f8bb0c4348e5b668d4657a523c9b)
+        ;
+
+        
+    
+    
+            var marker_b0bbf8afd29e481d876e2e6dcd8f0fe5 = L.marker(
+                [12.9757, 77.602],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_59a23419be65488a9a61b2d657fbb528 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_b0bbf8afd29e481d876e2e6dcd8f0fe5.setIcon(icon_59a23419be65488a9a61b2d657fbb528);
+        
+    
+        var popup_b799986928e747f6bbf428be839fa5a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca54a90a30614f0daf7a159ccc96dae5 = $(`<div id="html_ca54a90a30614f0daf7a159ccc96dae5" style="width: 100.0%; height: 100.0%;">Corner House, 42, Church Street, Bangalore</div>`)[0];
+            popup_b799986928e747f6bbf428be839fa5a0.setContent(html_ca54a90a30614f0daf7a159ccc96dae5);
+        
+
+        marker_b0bbf8afd29e481d876e2e6dcd8f0fe5.bindPopup(popup_b799986928e747f6bbf428be839fa5a0)
+        ;
+
+        
+    
+    
+            var marker_110b68367f514c02a256fbe435b818b0 = L.marker(
+                [12.975, 77.605],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_839558527e4b41278e746fa98de90c37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_110b68367f514c02a256fbe435b818b0.setIcon(icon_839558527e4b41278e746fa98de90c37);
+        
+    
+        var popup_eaff6c1426674b9b831b9ef5642948fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ba1f6c11229464d939d4a5def16efa4 = $(`<div id="html_9ba1f6c11229464d939d4a5def16efa4" style="width: 100.0%; height: 100.0%;">Natural Ice Cream, 22, Amoeba Complex, Church Street, Bangalore</div>`)[0];
+            popup_eaff6c1426674b9b831b9ef5642948fd.setContent(html_9ba1f6c11229464d939d4a5def16efa4);
+        
+
+        marker_110b68367f514c02a256fbe435b818b0.bindPopup(popup_eaff6c1426674b9b831b9ef5642948fd)
+        ;
+
+        
+    
+    
+            var marker_e3dfa2906780416e89a422c0c26aa017 = L.marker(
+                [12.9763, 77.6022],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_915db0bfeea14999a41a70a4665cb2f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_e3dfa2906780416e89a422c0c26aa017.setIcon(icon_915db0bfeea14999a41a70a4665cb2f0);
+        
+    
+        var popup_906d8b11a4a644ce9131be5c41b32a87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30dae06480f54f1e92cd605c52cfb40f = $(`<div id="html_30dae06480f54f1e92cd605c52cfb40f" style="width: 100.0%; height: 100.0%;">Hard Rock Cafe Bengaluru, Near LIC Building, Off MG Road, St. Marks Road, Bangalore</div>`)[0];
+            popup_906d8b11a4a644ce9131be5c41b32a87.setContent(html_30dae06480f54f1e92cd605c52cfb40f);
+        
+
+        marker_e3dfa2906780416e89a422c0c26aa017.bindPopup(popup_906d8b11a4a644ce9131be5c41b32a87)
+        ;
+
+        
+    
+    
+            var marker_959e4b285f3d4d59bfbbd2890fbb21ec = L.marker(
+                [12.967, 77.5963],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_6eaecff211f24750bb027409f5c38b7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_959e4b285f3d4d59bfbbd2890fbb21ec.setIcon(icon_6eaecff211f24750bb027409f5c38b7a);
+        
+    
+        var popup_de46a6bda43c485391e284bfccd96f75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5eb703cc93d04574869125d98285c790 = $(`<div id="html_5eb703cc93d04574869125d98285c790" style="width: 100.0%; height: 100.0%;">Diesel Store, ITC Gardenia, 1, Residency Road, Richmond Road, Bangalore</div>`)[0];
+            popup_de46a6bda43c485391e284bfccd96f75.setContent(html_5eb703cc93d04574869125d98285c790);
+        
+
+        marker_959e4b285f3d4d59bfbbd2890fbb21ec.bindPopup(popup_de46a6bda43c485391e284bfccd96f75)
+        ;
+
+        
+    
+    
+            var marker_bbc6eef98b6b481fb8ff147f14ee0d91 = L.marker(
+                [12.9755, 77.6026],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_2680570cb5c4436fa68e0cd55b932ac8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_bbc6eef98b6b481fb8ff147f14ee0d91.setIcon(icon_2680570cb5c4436fa68e0cd55b932ac8);
+        
+    
+        var popup_16307c7e7e5649f4a752630d3b28964f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12147a5fab174b6e9bb370da9e4e15f8 = $(`<div id="html_12147a5fab174b6e9bb370da9e4e15f8" style="width: 100.0%; height: 100.0%;">MTR 1924, 46, Church Street, Bangalore</div>`)[0];
+            popup_16307c7e7e5649f4a752630d3b28964f.setContent(html_12147a5fab174b6e9bb370da9e4e15f8);
+        
+
+        marker_bbc6eef98b6b481fb8ff147f14ee0d91.bindPopup(popup_16307c7e7e5649f4a752630d3b28964f)
+        ;
+
+        
+    
+    
+            var marker_2030e674b9a146e69c35cd7c46172228 = L.marker(
+                [12.9745, 77.6074],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_c19d856f61014150aa88eb56c21cec73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_2030e674b9a146e69c35cd7c46172228.setIcon(icon_c19d856f61014150aa88eb56c21cec73);
+        
+    
+        var popup_82c8e36b6a864503b9fcacee33d63007 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16aa21dd2ec047fba64bb0140099e64e = $(`<div id="html_16aa21dd2ec047fba64bb0140099e64e" style="width: 100.0%; height: 100.0%;">Blossom Book House, Prestige RR 55/1 &amp; 55/9, 2nd Floor, Church Street, Bangalore</div>`)[0];
+            popup_82c8e36b6a864503b9fcacee33d63007.setContent(html_16aa21dd2ec047fba64bb0140099e64e);
+        
+
+        marker_2030e674b9a146e69c35cd7c46172228.bindPopup(popup_82c8e36b6a864503b9fcacee33d63007)
+        ;
+
+        
+    
+    
+            var marker_abe01454e53e4652bafdbaea6140d26c = L.marker(
+                [12.9681, 77.6112],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_933d10f8d157490c8deb4c9abd374186 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_abe01454e53e4652bafdbaea6140d26c.setIcon(icon_933d10f8d157490c8deb4c9abd374186);
+        
+    
+        var popup_a61a0df1b51940f287c22739505d97f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_845872ffbcdc4967856d7de76cb598da = $(`<div id="html_845872ffbcdc4967856d7de76cb598da" style="width: 100.0%; height: 100.0%;">Arbor Brewing Company, 17/1, Raheja Plaza, Commissariat Road, D&#39;souza Circle, Opposite Lifestyle, Brigade Road, Bangalore</div>`)[0];
+            popup_a61a0df1b51940f287c22739505d97f3.setContent(html_845872ffbcdc4967856d7de76cb598da);
+        
+
+        marker_abe01454e53e4652bafdbaea6140d26c.bindPopup(popup_a61a0df1b51940f287c22739505d97f3)
+        ;
+
+        
+    
+    
+            var marker_1ce26d5697104fd59ae540747c716ec1 = L.marker(
+                [12.9705, 77.6103],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_a74d3f916cc644a4a597aae293b6a76e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_1ce26d5697104fd59ae540747c716ec1.setIcon(icon_a74d3f916cc644a4a597aae293b6a76e);
+        
+    
+        var popup_16a189e58b8f4b638adc8ec1f48be6a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd19009c93664dadb8f0a740c57ee4a7 = $(`<div id="html_bd19009c93664dadb8f0a740c57ee4a7" style="width: 100.0%; height: 100.0%;">Plan B, 16/3, Ram Kunj, Commissariat Road, Brigade Road, Bangalore</div>`)[0];
+            popup_16a189e58b8f4b638adc8ec1f48be6a1.setContent(html_bd19009c93664dadb8f0a740c57ee4a7);
+        
+
+        marker_1ce26d5697104fd59ae540747c716ec1.bindPopup(popup_16a189e58b8f4b638adc8ec1f48be6a1)
+        ;
+
+        
+    
+    
+            var marker_545c269244b84a5db5bc3747c8ec7eae = L.marker(
+                [12.9643, 77.6055],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_56baaca5b88547e3b10d662d7a865b68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_545c269244b84a5db5bc3747c8ec7eae.setIcon(icon_56baaca5b88547e3b10d662d7a865b68);
+        
+    
+        var popup_6e83bbec341947dc936cee4e1d78bc9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff1f6bad2ee948c496c48b8bf6af4445 = $(`<div id="html_ff1f6bad2ee948c496c48b8bf6af4445" style="width: 100.0%; height: 100.0%;">Toast and Tonic, 16, Aga Abdulla Street, Richmond Road Area, Behind Johnson Market, Richmond Road, Bangalore</div>`)[0];
+            popup_6e83bbec341947dc936cee4e1d78bc9c.setContent(html_ff1f6bad2ee948c496c48b8bf6af4445);
+        
+
+        marker_545c269244b84a5db5bc3747c8ec7eae.bindPopup(popup_6e83bbec341947dc936cee4e1d78bc9c)
+        ;
+
+        
+    
+    
+            var marker_2f36149363bb4fac9675003096c34599 = L.marker(
+                [12.9732, 77.6092],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_728a27c2cc804b13a30cc14fee498926 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_2f36149363bb4fac9675003096c34599.setIcon(icon_728a27c2cc804b13a30cc14fee498926);
+        
+    
+        var popup_63eabe8fafd1469e88b3630f49efdeb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f389b187784c4fbfad9b7b0489ce297b = $(`<div id="html_f389b187784c4fbfad9b7b0489ce297b" style="width: 100.0%; height: 100.0%;">Starbucks, 44/1, Residency Road, Bangalore</div>`)[0];
+            popup_63eabe8fafd1469e88b3630f49efdeb1.setContent(html_f389b187784c4fbfad9b7b0489ce297b);
+        
+
+        marker_2f36149363bb4fac9675003096c34599.bindPopup(popup_63eabe8fafd1469e88b3630f49efdeb1)
+        ;
+
+        
+    
+    
+            var marker_df72ed6bac224275bb11b180f21b7220 = L.marker(
+                [12.9334, 77.6143],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_fdeb4a3a4b90481c870027d01a1fbc17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_df72ed6bac224275bb11b180f21b7220.setIcon(icon_fdeb4a3a4b90481c870027d01a1fbc17);
+        
+    
+        var popup_4551eef1f5644551b8a8e26ff6f53493 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24d8a7d52e494da190bd2e0a4cc221d5 = $(`<div id="html_24d8a7d52e494da190bd2e0a4cc221d5" style="width: 100.0%; height: 100.0%;">Truffles Ice &amp; Spice, 4th B Cross, Koramangala 5th Block, Bangalore</div>`)[0];
+            popup_4551eef1f5644551b8a8e26ff6f53493.setContent(html_24d8a7d52e494da190bd2e0a4cc221d5);
+        
+
+        marker_df72ed6bac224275bb11b180f21b7220.bindPopup(popup_4551eef1f5644551b8a8e26ff6f53493)
+        ;
+
+        
+    
+    
+            var marker_bb62050c27904008ba9a6361d54cfd8f = L.marker(
+                [12.935, 77.6136],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_db79f97d6bcf440196154cd6b13945bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb62050c27904008ba9a6361d54cfd8f.setIcon(icon_db79f97d6bcf440196154cd6b13945bc);
+        
+    
+        var popup_75bdd9799dc34d81a50492294842e7ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8a3d98e2daa4ae1a836251509658ba2 = $(`<div id="html_c8a3d98e2daa4ae1a836251509658ba2" style="width: 100.0%; height: 100.0%;">Dyu Art Cafe, Real Square, 115, Ground Floor, Opposite Raheja Arcade, Koramangala 7th Block, Bangalore</div>`)[0];
+            popup_75bdd9799dc34d81a50492294842e7ce.setContent(html_c8a3d98e2daa4ae1a836251509658ba2);
+        
+
+        marker_bb62050c27904008ba9a6361d54cfd8f.bindPopup(popup_75bdd9799dc34d81a50492294842e7ce)
+        ;
+
+        
+    
+    
+            var marker_5e1b56efc61a4224b44b4b1e8db89cbd = L.marker(
+                [12.9346, 77.6172],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_e4e9801837eb48d2ba826fb66d972818 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5e1b56efc61a4224b44b4b1e8db89cbd.setIcon(icon_e4e9801837eb48d2ba826fb66d972818);
+        
+    
+        var popup_626aaf75e91e408a8df58d5489f88c34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_154ec3dc5e1a4b62bedcd033be19607b = $(`<div id="html_154ec3dc5e1a4b62bedcd033be19607b" style="width: 100.0%; height: 100.0%;">Zingron - Naga Kitchen, 17, H Main Road, Next to Aero Fitness Gym, Koramangala 5th Block, Bangalore</div>`)[0];
+            popup_626aaf75e91e408a8df58d5489f88c34.setContent(html_154ec3dc5e1a4b62bedcd033be19607b);
+        
+
+        marker_5e1b56efc61a4224b44b4b1e8db89cbd.bindPopup(popup_626aaf75e91e408a8df58d5489f88c34)
+        ;
+
+        
+    
+    
+            var marker_07c8116bf3d74580989a9d85232f0655 = L.marker(
+                [12.9422, 77.5712],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_86d5d90037ff4415904b8adbb1267a39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_07c8116bf3d74580989a9d85232f0655.setIcon(icon_86d5d90037ff4415904b8adbb1267a39);
+        
+    
+        var popup_81ba0c3d7cf94f0e9df6f6313a734f72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abc484a68202496bb018ef368f3755c8 = $(`<div id="html_abc484a68202496bb018ef368f3755c8" style="width: 100.0%; height: 100.0%;">South Kitchen, 121, DVG Road, R.M Complex, Basavanagudi, Bangalore</div>`)[0];
+            popup_81ba0c3d7cf94f0e9df6f6313a734f72.setContent(html_abc484a68202496bb018ef368f3755c8);
+        
+
+        marker_07c8116bf3d74580989a9d85232f0655.bindPopup(popup_81ba0c3d7cf94f0e9df6f6313a734f72)
+        ;
+
+        
+    
+    
+            var marker_d27feaad5ab64a0c943b90514d5b63c6 = L.marker(
+                [12.9362, 77.6147],
+                {}
+            ).addTo(map_e1a56fcba7ae43f8b429e9978fd8fff2);
+        
+    
+            var icon_c284bb641fb445f7816f3aa02959979f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d27feaad5ab64a0c943b90514d5b63c6.setIcon(icon_c284bb641fb445f7816f3aa02959979f);
+        
+    
+        var popup_de82fab9a07246b6a8ff2ba01bdc7eaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_796116262cda47bbb43375924a1f7525 = $(`<div id="html_796116262cda47bbb43375924a1f7525" style="width: 100.0%; height: 100.0%;">XOOX Brewmill, 350, 1st B Main, Koramangala 7th Block, Bangalore</div>`)[0];
+            popup_de82fab9a07246b6a8ff2ba01bdc7eaa.setContent(html_796116262cda47bbb43375924a1f7525);
+        
+
+        marker_d27feaad5ab64a0c943b90514d5b63c6.bindPopup(popup_de82fab9a07246b6a8ff2ba01bdc7eaa)
+        ;
+
+        
+    
+</script>

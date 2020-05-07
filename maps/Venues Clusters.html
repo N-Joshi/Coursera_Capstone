@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3593a16299454e588ddc97983ca15a3b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3593a16299454e588ddc97983ca15a3b" ></div>
+        
+</body>
+<script>    
+    
+            var map_3593a16299454e588ddc97983ca15a3b = L.map(
+                "map_3593a16299454e588ddc97983ca15a3b",
+                {
+                    center: [12.9716, 77.5946],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5be29e5cb4bd4527918b0c2060f168db = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+            var circle_marker_add1575763894252af321d90557b5e52 = L.circleMarker(
+                [12.9719, 77.5964],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_0166c18b85ea495a90fea6e89f2ea16d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42fb9047a50947e087862264228e619c = $(`<div id="html_42fb9047a50947e087862264228e619c" style="width: 100.0%; height: 100.0%;">Toscano, 2nd Floor, UB City, Vittal Mallya Road, Lavelle Road, Bangalore</div>`)[0];
+            popup_0166c18b85ea495a90fea6e89f2ea16d.setContent(html_42fb9047a50947e087862264228e619c);
+        
+
+        circle_marker_add1575763894252af321d90557b5e52.bindPopup(popup_0166c18b85ea495a90fea6e89f2ea16d)
+        ;
+
+        
+    
+    
+            var circle_marker_0b182f705bbf4dd3ad77dbc750e47297 = L.circleMarker(
+                [12.9718, 77.596],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_f40543b9ef944686b6b66fee67b754ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8f1ac48154b48e4b96cf5e36a95ae1c = $(`<div id="html_e8f1ac48154b48e4b96cf5e36a95ae1c" style="width: 100.0%; height: 100.0%;">Sanchez, 204, UB City, Vittal Mallya Road, Near Lavelle Road, Lavelle Road, Bangalore</div>`)[0];
+            popup_f40543b9ef944686b6b66fee67b754ca.setContent(html_e8f1ac48154b48e4b96cf5e36a95ae1c);
+        
+
+        circle_marker_0b182f705bbf4dd3ad77dbc750e47297.bindPopup(popup_f40543b9ef944686b6b66fee67b754ca)
+        ;
+
+        
+    
+    
+            var circle_marker_9fbc482a1e7d41bd9c9e7401cabb3192 = L.circleMarker(
+                [12.9721, 77.5964],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_8e15dd4c16034dc8a4fc7f9cb78bc0bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90487f7dbe944a0ab106984d40b742e7 = $(`<div id="html_90487f7dbe944a0ab106984d40b742e7" style="width: 100.0%; height: 100.0%;">Cafe Noir, 2nd Floor, UB City, Vittal Mallya Road, Lavelle Road, Bangalore</div>`)[0];
+            popup_8e15dd4c16034dc8a4fc7f9cb78bc0bb.setContent(html_90487f7dbe944a0ab106984d40b742e7);
+        
+
+        circle_marker_9fbc482a1e7d41bd9c9e7401cabb3192.bindPopup(popup_8e15dd4c16034dc8a4fc7f9cb78bc0bb)
+        ;
+
+        
+    
+    
+            var circle_marker_8ce3acb2c0bc4c249b76639e07658ee2 = L.circleMarker(
+                [12.9675, 77.5999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_3fafefaa18ee461bb73cae8e6b542ad8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00c08e7fb9e945199fd860fb96998a51 = $(`<div id="html_00c08e7fb9e945199fd860fb96998a51" style="width: 100.0%; height: 100.0%;">Harima, 131, 4th Floor, Devatha Plaza, Residency Road, Bangalore</div>`)[0];
+            popup_3fafefaa18ee461bb73cae8e6b542ad8.setContent(html_00c08e7fb9e945199fd860fb96998a51);
+        
+
+        circle_marker_8ce3acb2c0bc4c249b76639e07658ee2.bindPopup(popup_3fafefaa18ee461bb73cae8e6b542ad8)
+        ;
+
+        
+    
+    
+            var circle_marker_4904a7a24a714229ae66f78e0cbd3f4d = L.circleMarker(
+                [12.9718, 77.5952],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_f131a8583b7a4285a7ecd3681d7c5065 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c3ba2e197bd481f83bdc3ae0d293d03 = $(`<div id="html_8c3ba2e197bd481f83bdc3ae0d293d03" style="width: 100.0%; height: 100.0%;">Spice Terrace - JW Marriott, JW Marriott, 24/1, Vittal Mallya Road, Lavelle Road, Bangalore</div>`)[0];
+            popup_f131a8583b7a4285a7ecd3681d7c5065.setContent(html_8c3ba2e197bd481f83bdc3ae0d293d03);
+        
+
+        circle_marker_4904a7a24a714229ae66f78e0cbd3f4d.bindPopup(popup_f131a8583b7a4285a7ecd3681d7c5065)
+        ;
+
+        
+    
+    
+            var circle_marker_9dc49112a9ef4297933130a938040554 = L.circleMarker(
+                [12.9715, 77.6009],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_8d7154ab061443f7869b50041957b167 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_600a78d7644f4a2686c31c7864d8c836 = $(`<div id="html_600a78d7644f4a2686c31c7864d8c836" style="width: 100.0%; height: 100.0%;">Mainland China, 15/16, Ground Floor, House of Lords, St. Marks Road, Bangalore</div>`)[0];
+            popup_8d7154ab061443f7869b50041957b167.setContent(html_600a78d7644f4a2686c31c7864d8c836);
+        
+
+        circle_marker_9dc49112a9ef4297933130a938040554.bindPopup(popup_8d7154ab061443f7869b50041957b167)
+        ;
+
+        
+    
+    
+            var circle_marker_4d23bbd8a67742b98cd1a76d4fa6870d = L.circleMarker(
+                [12.9732, 77.6],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_97e64d9bbbdc48d48d6f64d0794be7dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bb5782cac124d31a189a2dee62b1121 = $(`<div id="html_6bb5782cac124d31a189a2dee62b1121" style="width: 100.0%; height: 100.0%;">Corner House Ice Cream, 4, Madras Bank Road, Lavelle Road, Bangalore</div>`)[0];
+            popup_97e64d9bbbdc48d48d6f64d0794be7dd.setContent(html_6bb5782cac124d31a189a2dee62b1121);
+        
+
+        circle_marker_4d23bbd8a67742b98cd1a76d4fa6870d.bindPopup(popup_97e64d9bbbdc48d48d6f64d0794be7dd)
+        ;
+
+        
+    
+    
+            var circle_marker_b6eeb1f46e134a54b5e976acf5d72112 = L.circleMarker(
+                [12.9714, 77.601],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_2b27e64fc14a48ddb36f28eb89af8617 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4eb5a667ae944a6981f0085a4f6473b9 = $(`<div id="html_4eb5a667ae944a6981f0085a4f6473b9" style="width: 100.0%; height: 100.0%;">Natural Ice Cream, 20, Ground Floor, 15/16, House Of Lords, St. Marks Road, Bangalore</div>`)[0];
+            popup_2b27e64fc14a48ddb36f28eb89af8617.setContent(html_4eb5a667ae944a6981f0085a4f6473b9);
+        
+
+        circle_marker_b6eeb1f46e134a54b5e976acf5d72112.bindPopup(popup_2b27e64fc14a48ddb36f28eb89af8617)
+        ;
+
+        
+    
+    
+            var circle_marker_b2377e3b7ae84ceb91445b2963d51799 = L.circleMarker(
+                [12.9717, 77.5952],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_2dd32ad861774d748d0fb47d2c757e56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76d64470e7b94d22a1ab9520a7b8802b = $(`<div id="html_76d64470e7b94d22a1ab9520a7b8802b" style="width: 100.0%; height: 100.0%;">Alba - JW Marriott Bengaluru, JW Marriott, 24/1, Vittal Mallya Road, Lavelle Road, Bangalore</div>`)[0];
+            popup_2dd32ad861774d748d0fb47d2c757e56.setContent(html_76d64470e7b94d22a1ab9520a7b8802b);
+        
+
+        circle_marker_b2377e3b7ae84ceb91445b2963d51799.bindPopup(popup_2dd32ad861774d748d0fb47d2c757e56)
+        ;
+
+        
+    
+    
+            var circle_marker_6f9f617ba02043d9a95e73140350dc29 = L.circleMarker(
+                [12.9757, 77.602],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_1fcb7a1febdf49559a756b77c3d76ebf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08e91be47cd9447d8b67cba99bd2bf65 = $(`<div id="html_08e91be47cd9447d8b67cba99bd2bf65" style="width: 100.0%; height: 100.0%;">BLOW, 42, Church Street, Bangalore</div>`)[0];
+            popup_1fcb7a1febdf49559a756b77c3d76ebf.setContent(html_08e91be47cd9447d8b67cba99bd2bf65);
+        
+
+        circle_marker_6f9f617ba02043d9a95e73140350dc29.bindPopup(popup_1fcb7a1febdf49559a756b77c3d76ebf)
+        ;
+
+        
+    
+    
+            var circle_marker_1bc2819f2b314c80aa6a49bbe4576acb = L.circleMarker(
+                [12.975, 77.605],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_7c32fc410a2747b58db3a6a533f79e70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2d538f03cee4347b78e9b7436ec2571 = $(`<div id="html_e2d538f03cee4347b78e9b7436ec2571" style="width: 100.0%; height: 100.0%;">20 Feet High, 22, Amoeba Complex, Church Street, Bangalore</div>`)[0];
+            popup_7c32fc410a2747b58db3a6a533f79e70.setContent(html_e2d538f03cee4347b78e9b7436ec2571);
+        
+
+        circle_marker_1bc2819f2b314c80aa6a49bbe4576acb.bindPopup(popup_7c32fc410a2747b58db3a6a533f79e70)
+        ;
+
+        
+    
+    
+            var circle_marker_a60196cd5194408dbf10acad743abacb = L.circleMarker(
+                [12.9763, 77.6022],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_5c3c82b32b0749f79d482e00f4d40ecd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66568a76b9934cd4ad02381d423a6813 = $(`<div id="html_66568a76b9934cd4ad02381d423a6813" style="width: 100.0%; height: 100.0%;">The Bar Stock Exchange, Near LIC Building, Off MG Road, St. Marks Road, Bangalore</div>`)[0];
+            popup_5c3c82b32b0749f79d482e00f4d40ecd.setContent(html_66568a76b9934cd4ad02381d423a6813);
+        
+
+        circle_marker_a60196cd5194408dbf10acad743abacb.bindPopup(popup_5c3c82b32b0749f79d482e00f4d40ecd)
+        ;
+
+        
+    
+    
+            var circle_marker_9cf1e0692c31429094dd7f68317d1f9a = L.circleMarker(
+                [12.967, 77.5963],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_889fae0cd6df4b338aa27b54c14303bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_416e679724ef403aae9bced314015483 = $(`<div id="html_416e679724ef403aae9bced314015483" style="width: 100.0%; height: 100.0%;">Kebabs &amp; Kurries - ITC Gardenia, ITC Gardenia, 1, Residency Road, Richmond Road, Bangalore</div>`)[0];
+            popup_889fae0cd6df4b338aa27b54c14303bf.setContent(html_416e679724ef403aae9bced314015483);
+        
+
+        circle_marker_9cf1e0692c31429094dd7f68317d1f9a.bindPopup(popup_889fae0cd6df4b338aa27b54c14303bf)
+        ;
+
+        
+    
+    
+            var circle_marker_d5d0f75df1384e5398b835473e96a974 = L.circleMarker(
+                [12.9755, 77.6026],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_4991b82ebf4340d5a78961f242db47a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a2090f2aac54ab88b4693d0486624ed = $(`<div id="html_5a2090f2aac54ab88b4693d0486624ed" style="width: 100.0%; height: 100.0%;">Smally&#39;s Resto Cafe, 46, Church Street, Bangalore</div>`)[0];
+            popup_4991b82ebf4340d5a78961f242db47a5.setContent(html_5a2090f2aac54ab88b4693d0486624ed);
+        
+
+        circle_marker_d5d0f75df1384e5398b835473e96a974.bindPopup(popup_4991b82ebf4340d5a78961f242db47a5)
+        ;
+
+        
+    
+    
+            var circle_marker_7fcd7fffa14c423ea1ca9a8ae1d93ab5 = L.circleMarker(
+                [12.9745, 77.6074],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_ad685dd03de342e4a3797ef9619ce248 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_064d44cc63bc449baaab83c642aabcfd = $(`<div id="html_064d44cc63bc449baaab83c642aabcfd" style="width: 100.0%; height: 100.0%;">#BEiR, Prestige RR 55/1 &amp; 55/9, 2nd Floor, Church Street, Bangalore</div>`)[0];
+            popup_ad685dd03de342e4a3797ef9619ce248.setContent(html_064d44cc63bc449baaab83c642aabcfd);
+        
+
+        circle_marker_7fcd7fffa14c423ea1ca9a8ae1d93ab5.bindPopup(popup_ad685dd03de342e4a3797ef9619ce248)
+        ;
+
+        
+    
+    
+            var circle_marker_85a431103ff34a85a50f6b5ff9a6fcea = L.circleMarker(
+                [12.9681, 77.6112],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_cb02896d431b41678cbf42405ee7388d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7720dab0c5274dea8b79177d24c49ba9 = $(`<div id="html_7720dab0c5274dea8b79177d24c49ba9" style="width: 100.0%; height: 100.0%;">Fatso&#39;s, 17/1, Raheja Plaza, Commissariat Road, D&#39;souza Circle, Opposite Lifestyle, Brigade Road, Bangalore</div>`)[0];
+            popup_cb02896d431b41678cbf42405ee7388d.setContent(html_7720dab0c5274dea8b79177d24c49ba9);
+        
+
+        circle_marker_85a431103ff34a85a50f6b5ff9a6fcea.bindPopup(popup_cb02896d431b41678cbf42405ee7388d)
+        ;
+
+        
+    
+    
+            var circle_marker_c36ff151d0cf4374aabc043944f07dc5 = L.circleMarker(
+                [12.9705, 77.6103],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_b402b15ac280410c8b9a567157e7946d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75a2d5e2221c4178a16eb0c46a652f14 = $(`<div id="html_75a2d5e2221c4178a16eb0c46a652f14" style="width: 100.0%; height: 100.0%;">The Permit Room, 16/3, Ram Kunj, Commissariat Road, Brigade Road, Bangalore</div>`)[0];
+            popup_b402b15ac280410c8b9a567157e7946d.setContent(html_75a2d5e2221c4178a16eb0c46a652f14);
+        
+
+        circle_marker_c36ff151d0cf4374aabc043944f07dc5.bindPopup(popup_b402b15ac280410c8b9a567157e7946d)
+        ;
+
+        
+    
+    
+            var circle_marker_8c1d91231a0e4baf877f8f390abb5914 = L.circleMarker(
+                [12.9643, 77.6055],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_21acdb70340b41ef863c4459103b620e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3d34565811548f884d974ead2245294 = $(`<div id="html_b3d34565811548f884d974ead2245294" style="width: 100.0%; height: 100.0%;">Khazana Food Paradise, 16, Aga Abdulla Street, Richmond Road Area, Behind Johnson Market, Richmond Road, Bangalore</div>`)[0];
+            popup_21acdb70340b41ef863c4459103b620e.setContent(html_b3d34565811548f884d974ead2245294);
+        
+
+        circle_marker_8c1d91231a0e4baf877f8f390abb5914.bindPopup(popup_21acdb70340b41ef863c4459103b620e)
+        ;
+
+        
+    
+    
+            var circle_marker_481c23253f3045e8ba052c51e30f9282 = L.circleMarker(
+                [12.9732, 77.6092],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_da89542c36a54cfcb54209427b3bd63e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4723f0d30e4043a893241708a2c5a185 = $(`<div id="html_4723f0d30e4043a893241708a2c5a185" style="width: 100.0%; height: 100.0%;">Nagarjuna, 44/1, Residency Road, Bangalore</div>`)[0];
+            popup_da89542c36a54cfcb54209427b3bd63e.setContent(html_4723f0d30e4043a893241708a2c5a185);
+        
+
+        circle_marker_481c23253f3045e8ba052c51e30f9282.bindPopup(popup_da89542c36a54cfcb54209427b3bd63e)
+        ;
+
+        
+    
+    
+            var circle_marker_8b43198cd715469c847ea25f859aa78c = L.circleMarker(
+                [12.9334, 77.6143],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_c94dfd6309194b02affb5f263f0531fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ea7d730b4dd4f859bc690b39b5cc9da = $(`<div id="html_5ea7d730b4dd4f859bc690b39b5cc9da" style="width: 100.0%; height: 100.0%;">Biergarten, 4th B Cross, Koramangala 5th Block, Bangalore</div>`)[0];
+            popup_c94dfd6309194b02affb5f263f0531fd.setContent(html_5ea7d730b4dd4f859bc690b39b5cc9da);
+        
+
+        circle_marker_8b43198cd715469c847ea25f859aa78c.bindPopup(popup_c94dfd6309194b02affb5f263f0531fd)
+        ;
+
+        
+    
+    
+            var circle_marker_cec89bdd36ec458189932b6c1bca8251 = L.circleMarker(
+                [12.935, 77.6136],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_cded8cf683ca495c89f1669357e4a8b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b1981b6b38f4a3abec7e55b4a8a0e05 = $(`<div id="html_4b1981b6b38f4a3abec7e55b4a8a0e05" style="width: 100.0%; height: 100.0%;">Krispy Kreme, Real Square, 115, Ground Floor, Opposite Raheja Arcade, Koramangala 7th Block, Bangalore</div>`)[0];
+            popup_cded8cf683ca495c89f1669357e4a8b0.setContent(html_4b1981b6b38f4a3abec7e55b4a8a0e05);
+        
+
+        circle_marker_cec89bdd36ec458189932b6c1bca8251.bindPopup(popup_cded8cf683ca495c89f1669357e4a8b0)
+        ;
+
+        
+    
+    
+            var circle_marker_60974485d34344b097ec15e23fe94c43 = L.circleMarker(
+                [12.9346, 77.6172],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_023a6a3bf69e45bdbfb8e2ae3d41e2fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f9c3a96b31c4f6491ef694951842b14 = $(`<div id="html_0f9c3a96b31c4f6491ef694951842b14" style="width: 100.0%; height: 100.0%;">Chai Mane, 17, H Main Road, Next to Aero Fitness Gym, Koramangala 5th Block, Bangalore</div>`)[0];
+            popup_023a6a3bf69e45bdbfb8e2ae3d41e2fd.setContent(html_0f9c3a96b31c4f6491ef694951842b14);
+        
+
+        circle_marker_60974485d34344b097ec15e23fe94c43.bindPopup(popup_023a6a3bf69e45bdbfb8e2ae3d41e2fd)
+        ;
+
+        
+    
+    
+            var circle_marker_9dad161aa9364c2ba9c6540221734e8a = L.circleMarker(
+                [12.9422, 77.5712],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_c5c617fbe7ea4435b90158e046315024 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_071e93aeab7b40f398f7ec1eb055bf9e = $(`<div id="html_071e93aeab7b40f398f7ec1eb055bf9e" style="width: 100.0%; height: 100.0%;">Sri Krishna Sweets, 121, DVG Road, R.M Complex, Basavanagudi, Bangalore</div>`)[0];
+            popup_c5c617fbe7ea4435b90158e046315024.setContent(html_071e93aeab7b40f398f7ec1eb055bf9e);
+        
+
+        circle_marker_9dad161aa9364c2ba9c6540221734e8a.bindPopup(popup_c5c617fbe7ea4435b90158e046315024)
+        ;
+
+        
+    
+    
+            var circle_marker_9a37c688e10c4173b27896a38b672d40 = L.circleMarker(
+                [12.9362, 77.6147],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_75d469a87a96431a92e038f3bb796d45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85c9bba84421468fb2bb44bf9d0232c3 = $(`<div id="html_85c9bba84421468fb2bb44bf9d0232c3" style="width: 100.0%; height: 100.0%;">Desi Tandoor, 350, 1st B Main, Koramangala 7th Block, Bangalore</div>`)[0];
+            popup_75d469a87a96431a92e038f3bb796d45.setContent(html_85c9bba84421468fb2bb44bf9d0232c3);
+        
+
+        circle_marker_9a37c688e10c4173b27896a38b672d40.bindPopup(popup_75d469a87a96431a92e038f3bb796d45)
+        ;
+
+        
+    
+    
+            var circle_marker_da36d788cb204579b9ac3462ddea9b04 = L.circleMarker(
+                [12.966814285714285, 77.60011428571428],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_2ff695fd07624cbdb73b876fb46c341e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ca2f51c99a0442684b9e9695329d7d4 = $(`<div id="html_0ca2f51c99a0442684b9e9695329d7d4" style="width: 100.0%; height: 100.0%;">Cluster: 0</div>`)[0];
+            popup_2ff695fd07624cbdb73b876fb46c341e.setContent(html_0ca2f51c99a0442684b9e9695329d7d4);
+        
+
+        circle_marker_da36d788cb204579b9ac3462ddea9b04.bindPopup(popup_2ff695fd07624cbdb73b876fb46c341e)
+        ;
+
+        
+    
+    
+            var circle_marker_d5ebbc1fde3248e6a88ed276bc48f9e0 = L.circleMarker(
+                [12.963417647058824, 77.60231176470589],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_3593a16299454e588ddc97983ca15a3b);
+        
+    
+        var popup_8ae0f53ec84648b1998376d2b8f60a91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92d7d10baff94fc68f6e31b5a3767cdb = $(`<div id="html_92d7d10baff94fc68f6e31b5a3767cdb" style="width: 100.0%; height: 100.0%;">Cluster: 1</div>`)[0];
+            popup_8ae0f53ec84648b1998376d2b8f60a91.setContent(html_92d7d10baff94fc68f6e31b5a3767cdb);
+        
+
+        circle_marker_d5ebbc1fde3248e6a88ed276bc48f9e0.bindPopup(popup_8ae0f53ec84648b1998376d2b8f60a91)
+        ;
+
+        
+    
+</script>
